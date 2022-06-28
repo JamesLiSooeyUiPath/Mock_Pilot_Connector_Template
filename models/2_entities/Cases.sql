@@ -3,7 +3,8 @@ with Customer_Data_Input as (
 ),
 
 /* 
-
+Template for Cases File
+Update Required: Add optional fields for Case based attributes
 */
 Cases as (
     select
