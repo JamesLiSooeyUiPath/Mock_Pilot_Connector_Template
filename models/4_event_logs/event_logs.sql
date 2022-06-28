@@ -1,6 +1,0 @@
-/*
-template for event logs
-*/
-
-
-

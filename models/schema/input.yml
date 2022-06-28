@@ -7,9 +7,3 @@ models:
       - name: '"Queue_Name"'
         tests:
           - not_null
-
-  - name: Invoices_input
-    columns:
-      - name: '"CASID"'
-        tests:
-          - not_null

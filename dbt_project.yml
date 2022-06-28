@@ -1,5 +1,5 @@
 # Name and version of this dbt project.
-name: 'devkit_connector'
+name: 'MOCK_PILOT_CONNECTOR_TEMPLATE'
 version: '0.1.0'
 require-dbt-version: [">=1.0.0", "<2.0.0"]
 config-version: 2
@@ -10,12 +10,12 @@ profile: 'Mock_Pilot_Connector'
 # Configuration of variables that are used in this dbt project.
 vars:
    # Name of the schema where the raw input data is stored.
-  schema_sources: "dbo"
+  schema_sources: "mock_pilot1"
 
 # These configurations specify where dbt should look for different types of files.
 model-paths: ["models"]
 macro-paths: ["macros"]
-seed-paths: ["seeds"]
+seed-paths: ["seed"]
 
 # Directory which will store compiled SQL files and will be removed by 'dbt clean'.
 target-path: "target"

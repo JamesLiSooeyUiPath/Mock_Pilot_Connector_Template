@@ -10,5 +10,6 @@ dbt_packages/
 snapshots/
 analysis/
 data/
+seed/
 # user specific file
 .user.yml
