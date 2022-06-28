@@ -1,0 +1,6 @@
+/*
+template for event logs
+*/
+
+
+
